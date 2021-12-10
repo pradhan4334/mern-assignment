@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  transition: all;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  
+  background: #518BE2;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navText {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 29px;
+  top: 18px;
+  
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+}
+.recentAllImages {
+  background:  #E5E5E5;
+
+}
+
+.recentImages, .AllImages {
+  padding: 7% 5% 0 5%;
+}
+
+.imagesButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imagesButton > p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.uploadBtn > button {
+  background: #518BE2;
+  padding: 3% 4%;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  font-size: 1rem;
+  cursor: pointer;
+  
+}
+
+.uploadBtn > button:hover {
+  background-color: #214274;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.images > div {
+  margin: 30px 10px;
+}
+
+.images > div > svg {
+  border-radius: 5px;
+
+}
+
+.imageData {
+  position: relative;
+}
+
+.datePlace {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+}
